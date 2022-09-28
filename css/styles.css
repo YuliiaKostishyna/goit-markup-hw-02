@@ -1,0 +1,25 @@
+/* webstudio */
+/* основной цвет фона background: #F5F5F5;
+цвет фона героя #2F303A
+цвет фона наша команда #F5F4FA
+цвет text вебстудия основной #2196F3 синий
+text второстепенный #000000 черный
+цвет text лого футера #FFFFFF
+цвет text навигации основной #212121
+цвет фона кнопки при активации #188CE8
+основной цвет текста #757575  */
+:root {
+  --button-bgc-color: #188ce8;
+  --prime-text-logo-color: #2196f3;
+  --secondary-text-logo-color: #000000;
+  --footer-text-logo-color: #ffffff;
+  --prime-text-color: #757575;
+  --text-nav-color: #212121;
+  --prime-bgc-color: #F5F5F5;
+  --hero-bgc-color: #2f303a;
+  --section-bgc-color: #f5f4fa;
+}
+body {
+  background-color: var(--prime-bgc-color);
+  color: var(--prime-text-color)  
+}
