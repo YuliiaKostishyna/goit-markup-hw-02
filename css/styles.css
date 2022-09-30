@@ -20,11 +20,10 @@ text второстепенный #000000 черный
   --section-bgc-color: #f5f4fa;
 }
 body {
-  background-color: var(--prime-bgc-color);
+  background-color: var(--footer-text-logo-color);
   color: var(--prime-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -174,9 +173,7 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-.link-adress:hover,
 .link:hover,
-.link-adress:focus,
 .link:focus {
   color: var(--prime-text-logo-color);
 }
